@@ -1,0 +1,395 @@
+/*Global settings*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+	font-family: Roboto Slab;
+}
+
+
+/*index.html css stylesheet*/
+
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #08556d;
+	padding-bottom: 0;
+	min-height: 15vh;
+}
+
+
+#logo_box {
+	max-height: 15vh;
+}
+
+#logo {
+	object-fit: contain;
+	padding-left: 20px;
+	position: relative;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#navul li hr {
+	display: none;
+	width: 0px;
+	transition: width 2s;
+	transition-timing-function: ease;
+}
+
+#navul li:hover hr {
+	display: block;
+	padding: 2px;
+	background: rgba(255,255,255,0.9);
+	position: absolute;
+	margin: 5px 10px;
+	width: 50px;
+}
+
+#mysliderBox {
+	width: 100%;
+}
+
+#myslider .img {
+	height: 85vh;
+	width: 100%;
+}
+
+.carousel-caption h5 a:hover {
+	text-decoration: none;
+}
+
+#presentation {
+	margin-top: 50px;
+}
+
+#specialities {
+	margin-top: 30px;
+	padding: 30px;
+}
+
+.card-img-top {
+	height: 35vh;
+}
+
+#options {
+	padding-top: 40px;
+	background: url('images/slide04.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#testimonials {
+	margin: 80px;
+	background-color: rgba(255,255,255, 0.7);
+	border-radius: 10px;
+	padding: 0;
+}
+
+#services {
+	margin: 5px;
+	padding-bottom: 40px;
+}
+
+#services .col-md-4 .card {
+	background-color: rgba(255,255,255, 0.7);
+}
+
+#footer {
+	padding: 40px;
+	margin-top: 40px;
+	background: url('images/worldmap.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	align-content: center;
+}
+
+#footer::before {
+	content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(3, 29, 74, 0.37); 
+}
+
+#partners {
+	margin-top: 10px;
+}
+
+#partnerImage {
+	margin-top: 100px;
+}
+
+#partnerImage h5 {
+	font-size: 1.5em;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+#partnerImage img {
+	max-height: 30vh;
+	max-width: 100%;
+}
+
+#contactus {
+	margin-bottom: 300px;
+}
+
+footer hr {
+	height: 3px;
+	background-color: black;
+}
+
+/*Services.html css style sheet*/
+
+#banner-box{
+	background: url('images/slide01.png');
+	background-position: center;
+	background-size: 80rem;
+	background-repeat: no-repeat;
+}
+
+#banner {
+	min-height: 50vh;
+	margin-bottom: 100px;
+}
+
+#banner::before {
+	content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0, 0.45);
+    max-height: 75vh;
+}
+
+#banner-txt {
+	position: relative;
+	padding: 120px;
+}
+
+.inner {
+	overflow: hidden;
+}              
+
+.inner img {
+	transition: all 1.5s ease;
+}
+
+.inner:hover img {
+	transform: scale(1.5);
+}
+
+.container h2 {
+	padding-bottom: 50px;
+	font-weight: lighter;
+}
+
+#wrapper2 {
+	margin-top: 50px;
+}
+
+div.col-md-4 {
+	margin-top: 15px;
+}
+
+#disclaimer {
+	margin-top: 40px;
+	background: url('images/slide01.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	min-height: 30vh;
+}
+
+
+/*contactus.html css style sheet*/
+
+#banner2 {
+	background: url('images/slide04.jpg');
+	background-position: center;
+	background-size: 80rem;
+	background-repeat: no-repeat;
+	min-height: 50vh;
+	margin-bottom: 100px;
+}
+
+#banner2::before {
+	content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0, 0.45);
+    max-height: 75vh;
+}
+
+#contact {
+	margin-bottom: 50px;
+}
+
+#contact-row{
+	border-style: outset;
+	display: inline-block;
+}
+
+#contact-row h2 {
+	padding: 10px;
+	font-weight: 100rem;
+}
+
+.the-line {
+	padding: 0px;
+	background: rgba(0,0,0,0.3);
+}
+
+#message {
+	width: 70%;
+	margin-left: 100px;
+}
+
+#submit-btn {
+	padding: 20px;
+}
+
+#contact-info {
+	margin-left: 40px;
+	margin-top: 90px;
+}
+
+#contact-info-box {
+	border: 5px lighter;
+	padding: 15px;
+	border-style: inset;
+}
+
+#disclaimer2 {
+	margin-top: 40px;
+	background: url('images/slide04.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	min-height: 30vh;
+}
+
+/*trace.php style sheet*/
+
+
+#banner3-Box{
+	background: url('images/slide02.jpg');
+	background-position: center;
+	background-size: 80rem;
+	background-repeat: no-repeat;
+}
+
+#banner3 {
+	min-height: 50vh;
+	margin-bottom: 100px;
+}
+
+#banner3::before {
+	content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0, 0.45);
+	max-height: 75vh;
+}
+
+#trace-code-field {
+	padding: 0px 150px;
+}
+
+#trace-code-field div {
+	margin-top: 25px;
+}
+
+
+#code-input-box input {
+	width: 70%;
+	border: 2px solid;
+	border-style: ridge;
+	border-radius: 10px;
+	outline: none;
+}
+
+#disclaimer3 {
+	margin-top: 40px;
+	background: url('images/slide02.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	min-height: 30vh;
+}
+
+/*payment.html css style-sheet*/
+
+#payment{
+	background: rgb(190, 193, 196);
+}
+
+#billing-details {
+	margin-top: 100px;
+}
+
+#billing-details h4 {
+	padding: 10px 0px;
+}
+
+#payment div label {
+	padding: 5px 0px;
+	font-size: 0.8rem;
+}
+
+#payment div input {
+	width: 90%;
+	margin-left: 20px;
+}
+
+#btn-box {
+	padding: 40px;
+}
+
+.transparent {
+    opacity: 0.2;
+}
+
+#secure-image-box img {
+	width: 50%;
+}
+
+/*location.html*/
+
+#banner4-Box{
+	background: url('images/slide02.jpg');
+	background-position: center;
+	background-size: 80rem;
+	background-repeat: no-repeat;
+}
+
+#banner4 {
+	min-height: 50vh;
+	margin-bottom: 100px;
+}
+
+#banner4::before {
+	content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0, 0.45);
+	max-height: 75vh;
+}

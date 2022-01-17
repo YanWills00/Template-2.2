@@ -1,0 +1,96 @@
+@media screen and (max-width: 767px){
+    /* index.html */
+
+    #header {
+        z-index: 10;
+        position: relative;
+    }
+
+    #myslider {
+		width: 103.7%;
+	}
+
+    #myslider .img {
+        height: 65vh;
+    }
+    
+    #footer {
+        background-size: 100%;
+    }
+
+    /* services.html */
+
+    #banner-txt {
+        position: relative;
+        padding: 100px;
+        text-align: center;
+    }
+
+    #banner {
+        position: relative;
+    }
+
+    .mx-5 p {
+        font-size: 10px;
+    }
+
+    #disclaimer {
+        min-height: 20vh;
+        background-size: 100%;
+    }
+
+    /* trace.php */
+
+    #banner3 {
+        position: relative;
+    }
+
+    #trace-code-field {
+        padding: 10px;
+    }
+
+    #text-box {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+
+    /* payment.php */
+
+    #payment-imgBx img{
+        width: 60%;
+    }
+
+    #payment {
+        width: 80%;
+    }
+
+    /* location.html */
+    #banner3 {
+        position: relative;
+    }
+
+    #locations .row .mx-auto{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #locations .row .mx-auto .mx-3 {
+        margin-top: 20px;
+    }
+
+    /* contact.html */
+    #banner4{
+        position: relative;
+    }
+
+    #contact-box{
+        text-align: center;
+    }
+
+    #contact-info {
+        width: 100%;
+        margin: 0px;
+        margin-top: 20px;
+    }
+}
