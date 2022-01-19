@@ -35,32 +35,25 @@
       <?php include('back-end.php')
       ?>
       <header id="header" class="container-fluid text-light sticky-top">
-      <!-- logo -->
-      <div id="logo_box">
-        <img id="logo" src="images/logo.png">
-      </div>
-      <!-- end logo -->
-      <nav id="navbar" class="navbar navbar-expand-lg navbar-toggleable-sm navbar-inverse">
-        <div class="container">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navdiv">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div id="navdiv" class="collapse navbar-collapse">
-            <ul id="navul" class="navbar mr-auto list-unstyled">
+      <nav id="navbar" class="navbar navbar-expand-lg">
+        <!-- logo -->
+        <a class="navbar-brand" href="#">
+          <div id="logo_box">
+          <img id="logo" src="images/logo.png">
+          </div>
+        </a>
+        <!-- end logo -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navdiv" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span id="collapse" class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-1" id="navdiv">
+            <ul id="navul" class="navbar list-unstyled">
               <li class="nav-item"><a class="text-light nav-link" href="index.html">HOME</a><hr></li>
               <li class="nav-item"><a class="text-light nav-link" href="services.html">SERVICES</a><hr></li>
-              <li class="nav-item dropdown">
-                <a class="text-light nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TRACKING</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="trace.php">TRACK PACKAGE</a>
-                  <a class="dropdown-item" href="payment.php">PAYMENT</a>
-                </div>
-                <hr>
-              </li>
+              <li class="nav-item"><a class="text-light nav-link" href="trace.php">TRACK</a><hr></li>
               <li class="nav-item"><a class="text-light nav-link" href="location.html">LOCATIONS</a><hr></li>
               <li class="nav-item"><a class="text-light nav-link" href="contactus.html">CONTACT US</a><hr></li>
             </ul>
-          </div>
         </div>
       </nav>
     </header>
@@ -77,12 +70,12 @@
     <!-- Package Informations -->
     <section id="package" class="d-none">
       <?php foreach ($infos as $info){ ?>
-      <div class="container-fluid" style="background: #08556d;">
+      <div class="container-fluid pb-3" style="background: #08556d;">
         <div class="row">
           <div class="container text-center">
             <div>
-                <h4 class="text-light">Tracking Number: <?php echo htmlspecialchars($info['Tracking_number']); ?> </h4>
-              </div>
+              <h4 class="text-light">Tracking Number: <?php echo htmlspecialchars($info['Tracking_number']); ?> </h4>
+            </div>
             <div class="d-md-flex m-3">
               <div class="col-md-6 bg-light m-3">
                 <h6>Tracking Number</h6> 
@@ -186,7 +179,7 @@
           <p>Phone: <span><a   href="tel:+15418961332">+1(541)896-1332</a></span></p>
           <p>Email : <span><a href="mailto:webmail@mail.com">webmail@mail.com</a></span></p>
         </div>
-        <hr style="background-color: #8a0000;">
+        <hr style="background-color: #08556d;">
         <div id="copyright" class="">
           <p>© 2021 Global Express Delivery | All Rights Reserved.</p>
         </div>

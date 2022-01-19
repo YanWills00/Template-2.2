@@ -73,32 +73,25 @@
     </style>
 
     <header id="header" class="container-fluid text-light sticky-top">
-      <!-- logo -->
-      <div id="logo_box">
-        <img id="logo" src="images/logo.png">
-      </div>
-      <!-- end logo -->
-      <nav id="navbar" class="navbar navbar-expand-lg navbar-toggleable-sm navbar-inverse">
-        <div class="container">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navdiv">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div id="navdiv" class="collapse navbar-collapse">
-            <ul id="navul" class="navbar mr-auto list-unstyled">
+      <nav id="navbar" class="navbar navbar-expand-lg">
+        <!-- logo -->
+          <a class="navbar-brand" href="#">
+            <div id="logo_box">
+            <img id="logo" src="images/logo.png">
+            </div>
+          </a>
+        <!-- end logo -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navdiv" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span id="collapse" class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-1" id="navdiv">
+            <ul id="navul" class="navbar list-unstyled">
               <li class="nav-item"><a class="text-light nav-link" href="index.html">HOME</a><hr></li>
               <li class="nav-item"><a class="text-light nav-link" href="services.html">SERVICES</a><hr></li>
-              <li class="nav-item dropdown">
-                <a class="text-light nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TRACKING</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="trace.php">TRACK PACKAGE</a>
-                  <a class="dropdown-item" href="payment.php">PAYMENT</a>
-                </div>
-                <hr>
-              </li>
+              <li class="nav-item"><a class="text-light nav-link" href="trace.php">TRACK</a><hr></li>
               <li class="nav-item"><a class="text-light nav-link" href="location.html">LOCATIONS</a><hr></li>
               <li class="nav-item"><a class="text-light nav-link" href="contactus.html">CONTACT US</a><hr></li>
             </ul>
-          </div>
         </div>
       </nav>
     </header>
@@ -200,7 +193,7 @@
             <p>Our clients love us. This is what they say...</p>
           </div>
           <div class="row" id="services">
-            <div class="col-md-4 col-lg-4">
+            <div class="col-lg-4">
               <div class="card">
                 <div class="card-block text-center">
                   <p class="font-italic">I wanted to personally thank both of you for the outstanding service you and your teams provided in helping us get our Dog Beau home to Santiago.
@@ -211,7 +204,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-lg-4">
+            <div class="col-lg-4">
               <div class="card">
                 <div class="card-block text-center">
                   <p class="font-italic">Hello ! Just to let you know that G.E.D. is one of my favorite people to work with in the shipping world. They are the most courteous individuals I deal with. They're an asset to your team!!! I have to deal with logistics groups all over this country and G.E.D. is by far the best. Just wanted to give a shout-out to her. People don’t do that enough anymore.</p>
@@ -219,7 +212,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-lg-4">
+            <div class="col-lg-4">
               <div class="card">
                 <div class="card-block text-center">
                   <p class="font-italic">Just a quick note to acknowledge the outstanding service supplied by G.E.D with their follow up on e-mails, bills of lading, requests for pricing and their amazing pursuit of late freight forwarders. It is a pleasure to work with Them. Connecticut-based Promotional Products Company</p>

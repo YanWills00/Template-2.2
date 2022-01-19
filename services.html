@@ -32,32 +32,25 @@
   </head>
   <body>
     <header id="header" class="container-fluid text-light sticky-top">
-      <!-- logo -->
-      <div id="logo_box">
-        <img id="logo" src="images/logo.png">
-      </div>
-      <!-- end logo -->
-      <nav id="navbar" class="navbar navbar-expand-lg navbar-toggleable-sm navbar-inverse">
-        <div class="container">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navdiv">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div id="navdiv" class="collapse navbar-collapse">
-            <ul id="navul" class="navbar mr-auto list-unstyled">
+      <nav id="navbar" class="navbar navbar-expand-lg">
+        <!-- logo -->
+          <a class="navbar-brand" href="#">
+            <div id="logo_box">
+            <img id="logo" src="images/logo.png">
+            </div>
+          </a>
+        <!-- end logo -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navdiv" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span id="collapse" class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-1" id="navdiv">
+            <ul id="navul" class="navbar list-unstyled">
               <li class="nav-item"><a class="text-light nav-link" href="index.html">HOME</a><hr></li>
               <li class="nav-item"><a class="text-light nav-link" href="services.html">SERVICES</a><hr></li>
-              <li class="nav-item dropdown">
-                <a class="text-light nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TRACKING</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="trace.php">TRACK PACKAGE</a>
-                  <a class="dropdown-item" href="payment.php">PAYMENT</a>
-                </div>
-                <hr>
-              </li>
+              <li class="nav-item"><a class="text-light nav-link" href="trace.php">TRACK</a><hr></li>
               <li class="nav-item"><a class="text-light nav-link" href="location.html">LOCATIONS</a><hr></li>
               <li class="nav-item"><a class="text-light nav-link" href="contactus.html">CONTACT US</a><hr></li>
             </ul>
-          </div>
         </div>
       </nav>
     </header>
@@ -80,7 +73,7 @@
           <p class="text-center">We are a global (3PL) freight forwarder focused on offering competitive and comprehensive solutions without compromising personal service. Our teams across the globe in more than 100 countries are experts in the logistics industry, but, equally important, they provide clients with attentive service striving to exceed expectations every time.</p>
         </div>
         <div id="wrapper1" class="row justify-content-center">
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <div class="card shadow" style="width: 20rem;">
               <div class="inner">
                 <img src="images/image3.jpg" class="card-img-top">
@@ -91,7 +84,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <div class="card shadow" style="width: 20rem;">
               <div class="inner">
                 <img src="images/image8.jpeg" class="card-img-top">
@@ -102,7 +95,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <div class="card shadow" style="width: 20rem;">
               <div class="inner">
                 <img src="images/slide04.jpg" class="card-img-top">
@@ -115,7 +108,7 @@
           </div>
         </div>
         <div id="wrapper2" class="row justify-content-center">
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <div class="card shadow" style="width: 20rem;">
               <div class="inner">
                 <img src="images/image8.jpg" class="card-img-top">
@@ -126,7 +119,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <div class="card shadow" style="width: 20rem;">
               <div class="inner">
                 <img src="images/slide03.jpg" class="card-img-top">
@@ -137,7 +130,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <div class="card shadow" style="width: 20rem;">
               <div class="inner">
                 <img src="images/image7.jpg" class="card-img-top">

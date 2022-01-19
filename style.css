@@ -27,6 +27,15 @@ header {
 	position: relative;
 }
 
+#navbar{
+	width: 100%;
+	justify-content: space-between;
+}
+
+#navdiv {
+	justify-content: right;
+}
+
 .navbar-toggler-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -197,7 +206,7 @@ footer hr {
 	margin-top: 50px;
 }
 
-div.col-md-4 {
+div.col-lg-4 {
 	margin-top: 15px;
 }
 
@@ -307,6 +316,14 @@ div.col-md-4 {
 	max-height: 75vh;
 }
 
+#package .bg-light {
+	border-radius: 10px;
+	margin-right: 5%;
+	box-shadow: 1px 3px 19px 8px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 3px 19px 8px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 1px 3px 19px 8px rgba(0, 0, 0, 0.5);
+}
+
 #trace-code-field {
 	padding: 0px 150px;
 }
@@ -331,42 +348,6 @@ div.col-md-4 {
 	background-position: center;
 	background-size: cover;
 	min-height: 30vh;
-}
-
-/*payment.html css style-sheet*/
-
-#payment{
-	background: rgb(190, 193, 196);
-}
-
-#billing-details {
-	margin-top: 100px;
-}
-
-#billing-details h4 {
-	padding: 10px 0px;
-}
-
-#payment div label {
-	padding: 5px 0px;
-	font-size: 0.8rem;
-}
-
-#payment div input {
-	width: 90%;
-	margin-left: 20px;
-}
-
-#btn-box {
-	padding: 40px;
-}
-
-.transparent {
-    opacity: 0.2;
-}
-
-#secure-image-box img {
-	width: 50%;
 }
 
 /*location.html*/

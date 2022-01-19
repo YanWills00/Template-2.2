@@ -14,8 +14,18 @@
         height: 65vh;
     }
     
+    #partnerImage img {
+        width: 80%;
+        height: 50%;
+    }
+
     #footer {
         background-size: 100%;
+        background-repeat: round;
+    }
+
+    #contactus {
+        height: 0.1vh;
     }
 
     /* services.html */
@@ -36,13 +46,22 @@
 
     #disclaimer {
         min-height: 20vh;
-        background-size: 100%;
+        background-size: 100% 100%;
+        background-attachment: scroll;
     }
 
     /* trace.php */
 
     #banner3 {
         position: relative;
+    }
+
+    #package .bg-light {
+        border-radius: 10px;
+        margin-right: 5%;
+        box-shadow: 1px 3px 19px 8px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 1px 3px 19px 8px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 1px 3px 19px 8px rgba(0, 0, 0, 0.5);
     }
 
     #trace-code-field {
@@ -54,16 +73,12 @@
         padding: 10px 10px;
     }
 
-    /* payment.php */
-
-    #payment-imgBx img{
-        width: 60%;
+    #disclaimer3 {
+        min-height: 20vh;
+        background-size: 100% 100%;
+        background-attachment: scroll;
     }
-
-    #payment {
-        width: 80%;
-    }
-
+       
     /* location.html */
     #banner3 {
         position: relative;
@@ -97,5 +112,102 @@
     /* location.html */
     #banner4{
         position: relative;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    /* index.html */
+    #myslider {
+        width: 102%;
+    }
+
+    #myslider .img {
+        height: 60vh;
+    }
+
+    .card-img-top {
+        height: 15vh;
+    }
+
+    #services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #services .col-lg-4 .card {
+        margin: 10px;
+        background-color: rgba(255,255,255, 0.7);
+    }
+
+    #partnerImage img {
+        height: 40%;
+        width: 70%;
+    }
+
+    #footer {
+        background-attachment: scroll;
+    }
+
+    /* services.html */
+    #banner {
+        position: relative;
+    }
+
+    #wrapper1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #wrapper1 .col-lg-4 {
+        width: 50%;
+    }
+
+    #wrapper2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #wrapper2 .col-lg-4 {
+        width: 50%;
+    }
+
+    #disclaimer {
+        background-size: 100%;
+    }
+
+    /* trace.php */
+    #banner3 {
+        position: relative;
+    }
+
+    #banner-txt {
+        font-size: 20px;
+    }
+
+    #text-box {
+        font-size: 20px;
+        padding: 1px;
+        margin: 1px;
+    }
+
+    #disclaimer3 {
+        background-size: 100%;
+    }
+
+    /* location.html */
+    #banner4 {
+        position: relative;
+    } 
+
+    /* contactus.html */
+    #banner2 {
+        position: relative;
+    }
+
+    #disclaimer2 {
+        background-size: 100%;
     }
 }
